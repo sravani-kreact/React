@@ -1,3 +1,117 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border:  1px, solid, black
+    }
+
+.logo{
+    width: 150px;
+    height: 100px;
+}
+.nav-items >ul  {
+    display: flex;
+    font-size: 20px;
+}
+.nav-items >ul >li {
+    display: inline-flex;
+    margin-right: 8px;
+    padding: 10px 40px 10px 10px;
+}
+.filterBtn{
+padding: 10px;
+margin: 10px;
+cursor: pointer;
+}
+.res-cards{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.card{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.menu{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.menucard{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 200%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
+}
+.imageId{
+    width: 150px;
+    height: 100px;
+    order:2;
+    margin-block-end: auto;
+}
+.description{
+order:1;
+margin-right: auto;
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.shimer-card{
+    background-color: #f0f0f0;
+    padding: 15px;
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.card:hover{
+    cursor: pointer;
+    border:  1px, solid, black;
+
+}
+.img{
+    height:80px;
+    width: 160px;
+}
 #heading{
     color: red;
 }   
+#hs{
+    color: rgb(155, 25, 199);
+}
+ 
+login{
+    padding:10px;
+    margin: 0 20px;
+}
+aboutus{
+
+    padding: 10px;
+    margin: 0 20px;
+}
+
+filter{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+Search{
+    padding: 10px;
+    margin: 10px;
+}
+
+

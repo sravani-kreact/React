@@ -1,0 +1,38 @@
+{
+  "name": "namasthereact",
+  "version": "1.0.0",
+  "description": "react",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sravani-kreact/React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Sravani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sravani-kreact/React/issues"
+  },
+  "homepage": "https://github.com/sravani-kreact/React#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@parcel/transformer-react-refresh-wrap": "^2.12.0",
+    "dom": "^0.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "router": "^1.3.8"
+  },
+  "browsersList": [
+    "last 2 version"
+  ]
+}
